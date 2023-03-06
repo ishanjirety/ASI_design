@@ -1,0 +1,90 @@
+.figma_overview_container {
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1336px;
+    height: 104px;
+    left: 53px;
+    top: 152px;
+
+}
+
+
+.card_container {
+    /* Rectangle 9 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 248px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border: 1px solid #EDEDEF;
+    border-radius: 4px;
+
+}
+
+
+.text_container>.secondary {
+    /* 180 of 250 */
+
+    position: absolute;
+    width: 124px;
+    height: 29px;
+    left: 89.5px;
+    top: 48px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #173165;
+}
+
+.text_container .primary {
+    /* Current Occupancy */
+
+    position: absolute;
+    width: 150.96px;
+    height: 17px;
+    left: 89.5px;
+    top: 27px;
+
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    color: #173165;
+
+
+}
+
+.img-container {
+    /* Rectangle 17 */
+
+    position: absolute;
+    width: 59.3px;
+    height: 52px;
+    left: 17px;
+    top: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(247, 128, 42, 0.1);
+    border-radius: 4px;
+}

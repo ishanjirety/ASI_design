@@ -1,0 +1,35 @@
+type InputTypes = {
+  position?: string
+  width?: string,
+  height?: string,
+  textAlign?: string;
+  ref?: any;
+  justifyContent?: ContentPosition;
+  alignItems?: ItemsPosition;
+  px?: FourPixelGridSystem;
+  py?: FourPixelGridSystem;
+  mt?: FourPixelGridSystem;
+  mr?: FourPixelGridSystem;
+  mb?: FourPixelGridSystem;
+  ml?: FourPixelGridSystem;
+  bg: string;
+  color?: string;
+  display?: string;
+  width?: string;
+  minWidth?: string;
+  maxWidth?: string;
+  minHeight?: string;
+  maxHeight?: string;
+  height?: string;
+  fontFamily?: FontFamily;
+  fontSize?: FontSize;
+  border?: string;
+  borderWidth?: BorderWidth;
+  borderRadius?: BorderRadius;
+  borderColor?: string;
+  borderTop?: string;
+  borderBottom?: string;
+  borderLeft?: string;
+  borderRight?: string;
+  autocomplete?: string
+}
